@@ -41,4 +41,10 @@ Router.post("/register", async (req, res) => {
 })
 
 
+//Login API
+
+Router.post("/login", async(req, res)=>{
+    const {email, password} = req.body
+})
+
 module.exports = Router
